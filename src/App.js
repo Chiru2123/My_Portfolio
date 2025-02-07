@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Github, Mail, Linkedin, ExternalLink, Send } from 'lucide-react';
 import { motion } from 'framer-motion';
 import logo from './assets/chiru_1.jpg';
+import face from './assets/Face.jpg';
+import emp from './assets/Employee.jpg';
 
 // Animation variants
 const fadeInUp = {
@@ -53,35 +55,19 @@ const SKILLS = [
 const PROJECTS = [
   {
     title: 'Project 1',
-    description: 'A full-stack web application built with React and Node.js',
-    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97',
-    github: 'https://github.com/yourusername/project1',
-    live: 'https://project1.com',
-    tech: ['React', 'Node.js', 'MongoDB']
+    description: 'Face Recognition\nUsing Face-api.js',
+    image: face,
+    github: 'https://github.com/Chiru2123/FaceRecog-master',
+    live: 'https://face-recog-master.vercel.app/',
+    tech: ['React', 'face-api.js','Nodejs']
   },
   {
     title: 'Project 2',
-    description: 'An e-commerce platform with real-time updates',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f',
-    github: 'https://github.com/yourusername/project2',
-    live: 'https://project2.com',
-    tech: ['TypeScript', 'Next.js', 'Prisma']
-  },
-  {
-    title: 'Project 3',
-    description: 'Mobile-first social media dashboard',
-    image: 'https://images.unsplash.com/photo-1551650975-87deedd944c3',
-    github: 'https://github.com/yourusername/project3',
-    live: 'https://project3.com',
-    tech: ['React Native', 'Firebase', 'Redux']
-  },
-  {
-    title: 'Project 4',
-    description: 'AI-powered content management system',
-    image: 'https://images.unsplash.com/photo-1518932945647-7a1c969f8be2',
-    github: 'https://github.com/yourusername/project4',
-    live: 'https://project4.com',
-    tech: ['Python', 'TensorFlow', 'FastAPI']
+    description: 'Employee Management System CRUD Operations Using MERN',
+    image: emp,
+    github: 'https://github.com/Chiru2123/EMPLOYEEMANAGEMENTSYSTEMMERN',
+    live: emp,
+    tech: ['React', 'Nodejs', 'MongoDB']
   }
 ];
 
@@ -140,7 +126,7 @@ function App() {
               <p className="text-xl mb-8 text-blue-200">Passionate about Building beautiful and functional applications</p>
               <div className="flex justify-center md:justify-start space-x-4">
                 <motion.a 
-                  href="https://github.com/yourusername" 
+                  href="https://github.com/Chiru2123" 
                   className="p-2 hover:text-blue-400 transition-colors"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
@@ -148,7 +134,7 @@ function App() {
                   <Github className="w-6 h-6" />
                 </motion.a>
                 <motion.a 
-                  href="https://linkedin.com/in/yourusername" 
+                  href="https://www.linkedin.com/in/chiranjeevulu-chenneboyina-748855338/" 
                   className="p-2 hover:text-blue-400 transition-colors"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
@@ -156,7 +142,7 @@ function App() {
                   <Linkedin className="w-6 h-6" />
                 </motion.a>
                 <motion.a 
-                  href="mailto:your@email.com" 
+                  href="mailto:chyrus2123@gmail.com" 
                   className="p-2 hover:text-blue-400 transition-colors"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
@@ -213,16 +199,14 @@ function App() {
               transition={{ duration: 0.6 }}
             >
               <p className="text-gray-300 leading-relaxed text-lg">
-                I'm a passionate full-stack developer with experience in building modern web applications.
-                I love turning complex problems into simple, beautiful, and intuitive solutions.
-                When I'm not coding, you can find me exploring new technologies or contributing to open-source projects.
+              I am a recent graduate in Electrical and Electronics Engineering with a CGPA of 7.29 from Siddharth Institute of Engineering and Technology, Puttur. With a strong passion for software development, I have honed my skills in full-stack web development, building modern and scalable applications.
               </p>
               <p className="text-gray-300 leading-relaxed text-lg mt-4">
-                With a strong foundation in both frontend and backend development, I strive to create
-                seamless user experiences while ensuring robust and scalable backend architectures.
-                I'm always eager to learn new technologies and best practices to stay at the forefront
-                of web development.
+              I enjoy solving complex problems by creating intuitive and efficient solutions. My expertise spans both frontend and backend development, ensuring seamless user experiences and robust architectures. Additionally, I actively explore new technologies and contribute to open-source projects to stay updated with industry trends.
               </p>
+              <p className="text-gray-300 leading-relaxed text-lg mt-4">
+              I am currently seeking an opportunity to apply my technical knowledge and development skills in a dynamic and supportive team environment, where I can grow while delivering innovative solutions.
+</p>
             </motion.div>
           </div>
         </div>
@@ -416,7 +400,7 @@ function App() {
             <p className="mb-4 sm:mb-0 text-gray-300">&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
             <div className="flex space-x-4">
               <motion.a 
-                href="https://github.com/yourusername" 
+                href="https://github.com/Chiru2123" 
                 className="text-gray-300 hover:text-blue-400 transition-colors"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
@@ -424,7 +408,7 @@ function App() {
                 <Github className="w-5 h-5" />
               </motion.a>
               <motion.a 
-                href="https://linkedin.com/in/yourusername" 
+                href="https://www.linkedin.com/in/chiranjeevulu-chenneboyina-748855338/" 
                 className="text-gray-300 hover:text-blue-400 transition-colors"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
@@ -432,7 +416,7 @@ function App() {
                 <Linkedin className="w-5 h-5" />
               </motion.a>
               <motion.a 
-                href="mailto:your@email.com" 
+                href="mailto:chyrus2123@gmail.com" 
                 className="text-gray-300 hover:text-blue-400 transition-colors"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
