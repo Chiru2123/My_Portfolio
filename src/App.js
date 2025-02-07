@@ -397,7 +397,7 @@ function App() {
         <div className="absolute inset-0 tech-gradient opacity-10"></div>
         <div className="relative max-w-6xl mx-auto px-6">
           <div className="flex flex-col sm:flex-row justify-between items-center">
-            <p className="mb-4 sm:mb-0 text-gray-300">&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
+            <p className="mb-4 sm:mb-0 text-gray-300">&copy; {new Date().getFullYear()} Chiranjeevulu. All rights reserved.</p>
             <div className="flex space-x-4">
               <motion.a 
                 href="https://github.com/Chiru2123" 
