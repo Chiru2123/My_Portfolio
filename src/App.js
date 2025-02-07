@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Github, Mail, Linkedin, ExternalLink, Send } from 'lucide-react';
 import { motion } from 'framer-motion';
-import logo from './assets/chiru.jpg';
+import logo from './assets/chiru_1.jpg';
 
 // Animation variants
 const fadeInUp = {
